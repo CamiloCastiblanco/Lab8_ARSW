@@ -11,11 +11,11 @@
     <name>websockets-msbroker-example</name>
     <description>Demo project for Spring Boot</description>
 
+    <!--Se actualizó la versión, no servia spring-boot:run-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.4.1.RELEASE</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>1.5.3.RELEASE</version>
     </parent>
 
     <properties>
@@ -51,7 +51,7 @@
             <groupId>org.webjars</groupId>
             <artifactId>stomp-websocket</artifactId>
             <version>2.3.3</version>
-        </dependency>                
+        </dependency>
 
         <dependency>
             <groupId>org.webjars</groupId>
@@ -62,8 +62,8 @@
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
             <version>3.1.0</version>
-        </dependency>                
-                                                                
+        </dependency>
+
     </dependencies>
 
     <build>
