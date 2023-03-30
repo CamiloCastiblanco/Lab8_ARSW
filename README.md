@@ -1,11 +1,14 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
+
+
 ### Laboratorio - Broker de Mensajes STOMP con WebSockets + HTML5 Canvas.
-
-
-
 - Conectarse con un botón
-- publicar con eventos de mouse
+- publicar con eventos de mouse 
+
+### Presentado por:
+- Francisco Marquez
+- Brayan Castiblanco
 
 var newpoint = JSON.parse(greeting.body);
                 addPointToCanvas(newpoint);
